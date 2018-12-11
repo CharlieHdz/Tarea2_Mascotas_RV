@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activy_vertical">16dp</dimen>
+    <dimen name="corner_radius">4dp</dimen>
+    <dimen name="nombre_cardview">18sp</dimen>
+    <dimen name="like_bone">18dp</dimen>
+    <dimen name="elevacion_ab">4dp</dimen>
+    <dimen name="text_sep">8dp</dimen>
+    <dimen name="text_sep_left">70dp</dimen>
+    <dimen name="likes">16sp</dimen>
+    <dimen name="titulo_sep_left">12dp</dimen>
+    <dimen name="titulo_app">24sp</dimen>
+
+
+</resources>
