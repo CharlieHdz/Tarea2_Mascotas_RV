@@ -2,6 +2,7 @@ package com.charlscode.mascotasrecyclerview;
 
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
@@ -31,9 +32,8 @@ public class PerfilFragment extends Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        //ListaFotos();
         //return inflater.inflate( R.layout.fragment_perfil, container, false );
 
         View rootView = inflater.inflate(R.layout.fragment_perfil, container, false);
@@ -66,21 +66,5 @@ public class PerfilFragment extends Fragment {
         return rootView;
 
     }
-
-   /* private void ListaFotos() {
-        listFotos = new ArrayList<>();
-        listFotos.add(new Mascota(R.drawable.cat,"Catty","20","false"));
-        listFotos.add(new Mascota(R.drawable.cat,"Catty","20","false"));
-        listFotos.add(new Mascota(R.drawable.cat,"Catty","20","false"));
-        listFotos.add(new Mascota(R.drawable.cat,"Catty","20","false"));
-        listFotos.add(new Mascota(R.drawable.cat,"Catty","20","false"));
-        listFotos.add(new Mascota(R.drawable.cat,"Catty","20","false"));
-        listFotos.add(new Mascota(R.drawable.cat,"Catty","20","false"));
-        listFotos.add(new Mascota(R.drawable.cat,"Catty","20","false"));
-        listFotos.add(new Mascota(R.drawable.cat,"Catty","20","false"));
-        listFotos.add(new Mascota(R.drawable.cat,"Catty","20","false"));
-
-
-    } */
 
 }
