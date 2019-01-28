@@ -1,5 +1,18 @@
 <resources>
-    <string name="app_name">Petagram</string>
+    <string name="app_name"></string>
+    <string name="name">Petagram</string>
     <string name="nombre">Nombre</string>
     <string name="likes">5</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="texto_contacto">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="texto_about">Acerca de</string>
+    <string name="texto_about1">Autor: Carlos Hernández Aguilar</string>
+    <string name="texto_about2">Estudiante en la UNAM Online en Desarrollo de aplicaciones en android, se encuentra en el modulo 3 de
+        5 y ya superó el 50% de la especialidad. Se espera que este año se gradúe y empiece a desarrollar apps</string>
+    <string name="texto_about3">¡Gracias por calificar!</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Redacte un mensaje</string>
+    <string name="enviar">Enviar Comentario</string>
+
 </resources>

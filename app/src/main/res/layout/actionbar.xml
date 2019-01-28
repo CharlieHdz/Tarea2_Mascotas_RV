@@ -2,7 +2,7 @@
 <android.support.v7.widget.Toolbar
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
     android:background="@color/colorPrimary"
@@ -11,19 +11,16 @@
     android:elevation="@dimen/elevacion_ab"
     >
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        >
+
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/titulo_sep_left"
             android:gravity="center"
-            android:text="@string/app_name"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/name"
             android:textColor="@color/cardview_light_background"
             android:textSize="@dimen/titulo_app"
             android:textStyle="italic" />
@@ -35,6 +32,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal|right"
             android:layout_marginTop="0dp"
             android:layout_marginEnd="24dp"
             android:layout_marginRight="24dp"
@@ -42,9 +40,18 @@
             android:onClick="irSegAct"
             android:src="@drawable/icons8_hotel_100"
             />
+<!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/imgestrella"
+            android:gravity="center"
+            android:textSize="@dimen/text_sep"
+            android:layout_centerVertical="true"
+            android:id="@+id/title"
+            android:layout_toLeftOf="@id/imgestrella" />
+-->
 
-
-    </RelativeLayout>
 
 
 </android.support.v7.widget.Toolbar>
