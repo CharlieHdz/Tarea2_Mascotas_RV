@@ -25,8 +25,8 @@ import static android.support.v7.widget.AppCompatDrawableManager.get;
 public class MainActivity extends AppCompatActivity {
 
     private ImageView imgEstrella;
-    ArrayList<Mascota> mascotas;
-    private RecyclerView listaMascotas;
+   /*  ArrayList<Mascota> mascotas;
+    private RecyclerView listaMascotas; */
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
@@ -43,14 +43,14 @@ public class MainActivity extends AppCompatActivity {
        // setSupportViewPager(miViewPager);
         setSupportActionBar( toolbar );
 
-        listaMascotas = (RecyclerView) findViewById( R.id.rvMascotas );
+      /*  listaMascotas = (RecyclerView) findViewById( R.id.rvMascotas );
 
         LinearLayoutManager llm = new LinearLayoutManager( this );
         llm.setOrientation( LinearLayoutManager.VERTICAL );
 
-        listaMascotas.setLayoutManager( llm );
-        inicializarListaMascotas();
-        inicializarAdaptador();
+        listaMascotas.setLayoutManager( llm );*/
+      /*  inicializarListaMascotas();
+        inicializarAdaptador(); */
         setUpViewPager();
 
     }
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void inicializarAdaptador(){
+/*    public void inicializarAdaptador(){
         MascotaAdaptador adaptador = new MascotaAdaptador( mascotas, this );
         listaMascotas.setAdapter( adaptador );
     }
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
         mascotas.add( new Mascota( R.drawable.rabbit, "Rabbie", "4","false" ));
         mascotas.add( new Mascota( R.drawable.dog2, "Dorothy", "2","false" ));
 
-    }
+    }*/
 
     public void irSegAct(View v) {
         Intent ir = new Intent( this, FavouriteMascota.class );

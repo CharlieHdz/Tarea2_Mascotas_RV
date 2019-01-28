@@ -14,5 +14,6 @@
     <string name="email">Email</string>
     <string name="descripcion">Redacte un mensaje</string>
     <string name="enviar">Enviar Comentario</string>
+    <string name="nombreGato">Catty</string>
 
 </resources>
